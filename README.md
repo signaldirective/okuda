@@ -14,6 +14,8 @@ and the lilac and magenta pills of the ship's library computer.
   NX-74205** status board in `Defiant Status.jpg`.
 - Animated Hyprland window borders blending lilac into amber at 45°.
 - A `Yaru-magenta` icon theme, matched to the LCARS accent colours.
+- A Plymouth unlock screen: the Starfleet crest over true black with the Omarchy
+  wordmark in the Deep Space Nine title face.
 
 ## Installation
 
@@ -31,7 +33,7 @@ You can also place the theme in `~/.config/omarchy/themes/` and set it with
 
 `colors.toml` is the source of truth. When the theme is installed from a
 repository, Omarchy generates the shell, Hyprland borders, terminals, editors,
-btop, and the lock screen from that one file.
+btop, and the desktop lock screen from that one file.
 
 | Role | Colour | |
 |---|---|---|
@@ -62,6 +64,20 @@ Seven wallpapers ship in `backgrounds/`, all 4K or larger:
 
 Cycle them with `omarchy theme bg next`, or pick one from **Omarchy → Style →
 Background**.
+
+## Unlock screen
+
+The theme also ships the Plymouth disk-unlock screen: the Starfleet crest in
+LCARS lilac above the Omarchy wordmark set in the Deep Space Nine title face,
+with the passphrase field in amber on true black.
+
+![Okuda unlock screen](preview-unlock.png)
+
+Pick it from **Appearance → Unlock**, or apply it directly:
+
+```bash
+omarchy-plymouth-set-by-theme okuda
+```
 
 ## Icons
 
